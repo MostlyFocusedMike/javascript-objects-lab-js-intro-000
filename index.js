@@ -6,6 +6,6 @@ function updateObjectWithKeyAndValue(object, key, value) {
 }
 
 function updateObjectWithKeyAndValue(object, key, value) {
-  newObj = Object.assign({}, object);
+  let newObj = Object.assign({}, object);
   newObj[key] = value;
 }
