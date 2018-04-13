@@ -10,3 +10,8 @@ function updateObjectWithKeyAndValue(object, key, value) {
   newObj[key] = value;
   return newObj;
 }
+
+funtion destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
+  object[key] = value;
+  return object
+}
