@@ -1,10 +1,11 @@
 let recipes = {}
 
 function updateObjectWithKeyAndValue(object, key, value) {
-  object[key] = value
-  return object
+  object[key] = value;
+  return object;
 }
 
 function updateObjectWithKeyAndValue(object, key, value) {
-  return Object.assign({})
+  newObj = Object.assign({}, object);
+  newObj[key] = value;
 }
