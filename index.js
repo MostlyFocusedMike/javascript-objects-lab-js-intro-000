@@ -22,7 +22,7 @@ function deleteFromObjectByKey(object, key) {
   return newObj;
 }
 
-function deleteFromObjectByKey(object, key) {
+function desdeleteFromObjectByKey(object, key) {
   let newObj = Object.assign({}, object);
   delete newObj[key];
   return newObj;
